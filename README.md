@@ -1,1 +1,1 @@
-A simple Library Management System written in PHP with CSS and HTML, connected to a MySQL database. This application allows users to display books in the library, add new books, borrow books, return books, and delete books.
+A Library Management System written in PHP with CSS and HTML, connected to a MySQL database. This application allows users to display books in the library, add new books, borrow books, return books, and delete books.
