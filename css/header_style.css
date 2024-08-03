@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center; /* This will vertically center the content */
+  justify-content: flex-start; /* Aligns items to the left */
+  height: 80px; /* Or any height you want */
+  background: #343642;
+  padding: 0 5%; /* Padding instead of margin for #cd-logo */
+}
+ #navbarNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ }
+header #cd-logo {
+  display: flex;
+  align-items: flex-start; /* Vertically centers the logo and text inside #cd-logo */
+}
+
+header #cd-logo img {
+  height: auto; /* Maintain aspect ratio */
+  width: 4rem; /* Adjust as necessary */
+}
+
+header #cd-logo p {
+  color: #d75069;
+  font-weight: bold;
+  font-size: 1.6rem; /* Adjust as necessary */
+  margin-left: 1rem; /* Space between logo and text */
+}

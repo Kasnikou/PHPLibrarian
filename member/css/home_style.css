@@ -1,0 +1,75 @@
+.my-books h2 {
+  text-align: center; /* Centers the header text */
+  margin-top: 0; /* Removes the top margin if any */
+  font-weight: bold; /* Makes the text bold */
+  /* Other styling as needed */
+}
+
+/* Ensure the .my-books class is on the container div around the <h2> tag */
+.my-books {
+  margin-top: 30px; /* Adjust this value as needed to move content down */
+  display: flex;
+  justify-content: center; /* Centers the container horizontally */
+  align-items: center; /* Centers the container vertically */
+  flex-direction: column; /* Stacks items vertically */
+  width: 100%;
+  /* Other styling as needed */
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust as needed */
+  justify-content: center; /* Center the books within the container */
+  padding: 20px; /* Adjust as needed */
+  margin-top: 20px; /* You can increase this if you need more space from the top */
+}
+
+.book-card {
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  margin-bottom: 20px; /* Adds some space at the bottom of each card */
+}
+
+.book-cover {
+  width: 100%;
+  /* height: auto; */
+  height: 250px; /* Fixed height for consistency */
+  object-fit: contain; /* Ensure the cover fills the area */
+  display: block;
+}
+
+.book-info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space out the elements */
+}
+
+.book-title,
+.book-author,
+.book-category,
+.book-due-date {
+  margin: 5px 0;
+}
+
+.borrow-button {
+  background-color: #d75069;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  
+}
+
+.borrow-button:hover {
+  background-color: #c9405a;
+}

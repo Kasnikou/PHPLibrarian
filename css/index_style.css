@@ -1,0 +1,37 @@
+#allTheThings {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 8em auto;
+  font-size: 1.3rem;
+  color: #94aab0;
+  display: flex;
+  justify-content: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+a {
+  color: #94aab0;
+  text-decoration: none;
+}
+
+#member,
+#librarian {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between icons */
+  transition: all 0.2s ease-in-out;
+}
+
+#verticalLine {
+  height: 250px; /* Match icon height */
+  border-left: solid #343642;
+}
+
+#librarian-link {
+  display: inline-block; /* Align with the vertical line */
+}
+
+#member:hover,
+#librarian:hover {
+  transform: scale(1.1);
+}

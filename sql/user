@@ -1,0 +1,23 @@
+CREATE TABLE `user` (
+  `MemberID` int(11) NOT NULL AUTO_INCREMENT,
+  `MemberType` enum('Member','Admin') NOT NULL DEFAULT 'Member',
+  `FirstName` varchar(20) NOT NULL,
+  `LastName` varchar(20) NOT NULL,
+  `Email` varchar(50) DEFAULT NULL,
+  `Password` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`MemberID`)
+) ;
+
+
+
+
+INSERT INTO `user` (MemberType, FirstName, LastName, Email, Password) 
+VALUES ('Admin', 'Tanya', 'Tanya', 'Tanya@gmail.com', '$2y$10$qLuYeiIx2WJFVavHkyqUs.uaQWBTl0YifliY6W/Ycu9ah6P5fsF.W');
+
+
+
+
+
+
+
+-- credentials for admin tanya@gmail.com    password: tanya    

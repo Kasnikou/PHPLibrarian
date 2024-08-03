@@ -1,0 +1,11 @@
+CREATE TABLE `book` (
+  `BookID` int(11) NOT NULL AUTO_INCREMENT,
+  `BookTitle` varchar(30) NOT NULL,
+  `Author` varchar(30) DEFAULT NULL,
+  `Publisher` varchar(30) DEFAULT NULL,
+  `Language` enum('English','French','German','Mandarin','Japanese','Russian','Other') NOT NULL DEFAULT 'English',
+  `Category` enum('Fiction','Nonfiction','Reference') NOT NULL DEFAULT 'Fiction',
+  `cover_image_path` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`BookID`)
+) ;
+INSERT INTO `book` VALUES (1,'great expectations','charles dickens','macmillan collectors library','English','Fiction','book_1.png'),(2,'an inconvenient truth','al gore','penguin books','English','Nonfiction','book_2.png'),(3,'oxford dictionary','oxford press','oxford press','English','Reference','book_3.png'),(4,'anna karenina','leo tolstoy','star publishing','Russian','Fiction','book_4.png'),(5,'the tale of genji','murasaki shikibu','kinokuniya','Japanese','Fiction','book_5.png');

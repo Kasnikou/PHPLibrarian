@@ -1,0 +1,8 @@
+CREATE TABLE bookstatus (
+    BookID int(11),
+    MemberID int(11),
+    Status enum('Available', 'Onloan', 'Deleted'),
+    AppliedDate datetime,
+    FOREIGN KEY (BookID) REFERENCES book(BookID),
+    FOREIGN KEY (MemberID) REFERENCES user(MemberID)
+);

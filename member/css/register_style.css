@@ -1,0 +1,49 @@
+/*----------Custom Icons----------*/
+.cd-form .icon input {
+  padding-left: 54px !important; /* Space for icon */
+}
+
+/* First Name Icon */
+.cd-form .m-user {
+  background: url("../img/ic_member_username.svg") no-repeat 16px center;
+}
+.cd-form [required].m-user {
+  background: url("../img/ic_member_username.svg") no-repeat 16px center,
+    url("../img/ic_required.svg") no-repeat top right; /* Required field indicator */
+}
+
+/* Last Name Icon */
+.cd-form .m-user {
+  background: url("../img/ic_member_username.svg") no-repeat 16px center;
+}
+.cd-form [required].m-user {
+  background: url("../img/ic_member_username.svg") no-repeat 16px center,
+    url("../img/ic_required.svg") no-repeat top right;
+}
+
+/* Email Address Icon */
+.cd-form .m-email {
+  background: url("../img/ic_member_email.svg") no-repeat 16px center;
+}
+.cd-form [required].m-email {
+  background: url("../img/ic_member_email.svg") no-repeat 16px center,
+    url("../img/ic_required.svg") no-repeat top right;
+}
+
+/* Password Icon */
+.cd-form .m-pass {
+  background: url("../img/ic_member_pass.svg") no-repeat 16px center;
+}
+.cd-form [required].m-pass {
+  background: url("../img/ic_member_pass.svg") no-repeat 16px center,
+    url("../img/ic_required.svg") no-repeat top right;
+}
+
+/* Confirm Password Icon - assuming you have a confirm password icon */
+.cd-form .m-pass-confirm {
+  background: url("../img/ic_member_pass.svg") no-repeat 16px center;
+}
+.cd-form [required].m-pass-confirm {
+  background: url("../img/ic_member_pass.svg") no-repeat 16px center,
+    url("../img/ic_required.svg") no-repeat top right;
+}

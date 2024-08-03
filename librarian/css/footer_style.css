@@ -1,0 +1,20 @@
+footer {
+  background: #343642; /* Match the header background color */
+  color: white;
+  text-align: center; /* Align the text to the left */
+  padding: 1.5em 0; /* Increase padding to make the footer taller */
+  position: fixed; /* Fixes the footer to the bottom */
+  bottom: 0; /* Aligns the footer at the bottom */
+  width: 100%; /* Ensures the footer spans the width of the screen */
+  display: flex; /* Use flexbox to align children */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+footer .text-center {
+  flex: 1; /* Allows the div to grow and fill the space */
+}
+
+/* Add this to ensure content doesn't overlap with the fixed footer */
+body {
+  padding-bottom: 4rem; /* Must be equal or greater than the footer's total height */
+}
